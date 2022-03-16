@@ -1,0 +1,119 @@
+/* Общие настройки для сайта */
+
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background: #f1f1f1;
+    /* width: 1180px;
+    height: 2000px; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 20px 0px 40px 0px;
+}
+
+p {
+    margin: 0%;
+    padding: 0%;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* Шапка сайта */
+
+.header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 370px;
+    background: rgb(255, 255, 255);
+}
+
+.container {
+    margin: 0 auto;
+    width: 1180px;
+}
+
+.img img {
+    border-radius: 50%;
+}
+
+.section { 
+    font-size: 48px;
+    font-weight: 700;
+    width: 65%;
+}
+
+.section-jun h4 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+/* Средняя часть сайта */
+
+.main .container-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 850px;
+    background: rgb(255, 255, 255);
+}
+
+.container-main {
+    margin: 0 auto;
+    width: 1180px;
+}
+
+.main-left {
+    margin: 90px 10px 520px 70px;
+    width: 35%;
+    font-weight: 300;
+    line-height: 1.6em;
+}
+
+.main-right {
+    width: 65%;
+    margin: 400px 80px 520px 0px;
+    font-size: 16px;
+}
+
+.code {
+    display: block;
+    padding-left: 0px;
+    border-radius: 20px;
+    background: #f1f1f1;
+}
+
+.git,
+.twitter,
+.mail {
+    text-decoration: none;
+    font-weight: 400;
+    color: #acacac;
+    transition: color 0.5s;
+}
+
+/* Футер сайта */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 1180px;
+    background: rgb(255, 255, 255);
+}
+
+.footer img {
+    padding: 20px;
+    width: 100px;
+}
