@@ -11,9 +11,9 @@ I am 31 years old, by education I am a process engineer. Life is an interesting 
 + Photoshop, Illustrator, Figma, Lightroom
 + Premier Pro, After Effects
 ## Code Examples ##
-var ArrowFunc = function(arr) {
-  return ( x => String.fromCharCode(x) ).join(''); 
-}
+`var ArrowFunc = function(arr) {
+  return arr.map( x => String.fromCharCode(x) ).join(''); 
+}`
 ## Education ##
 - Belarusian-Russian University
 ## Languages ##
