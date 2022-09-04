@@ -7,7 +7,7 @@
 ## About me ##
 Hello. My goal for 2022 is to increase knowledge in the field of front-end development. Now I'm doing my best to find my place under the "IT sun". I want to further learn the language of backend development and become a full-stack developer. At the moment, I have little experience in versioning and minimal writing of js.
 ## Skills ##
-+ HTML
++ HTML, CSS, SASS, JS
 + Photoshop, Illustrator, Figma
 ## Code Examples ##
 `This is my code`
