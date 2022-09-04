@@ -10,7 +10,16 @@ Hello. My goal for 2022 is to increase knowledge in the field of front-end devel
 + HTML, CSS, SASS, JS
 + Photoshop, Illustrator, Figma
 ## Code Examples ##
-`This is my code`
+`function squaresNeeded(grains){
+  const arr = [0];
+  for (let i = 0; i < 63; i++){
+  arr.push(Math.pow(2, i))
+  }
+  for (let i = 0; i < 63; i++){
+    if (grains<arr[i]){
+      return i-1}
+  }
+}`
 ## Education ##
 - Belarusian-Russian University
 - Independent study of front-end development
