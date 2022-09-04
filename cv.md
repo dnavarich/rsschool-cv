@@ -21,7 +21,7 @@ Hello. My goal for 2022 is to increase knowledge in the field of front-end devel
   }
 }`
 ## Education ##
-- Belarusian-Russian University
+- Belarusian-Russian University / automation engineer
 - Independent study of front-end development
 ## Languages ##
 + Russian / Belarusian language
