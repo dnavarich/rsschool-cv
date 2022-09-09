@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icon/ico_d.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CV</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#about">About</a></li>
+                    <li class="nav__item"><a href="#skills">Skills</a></li>
+                    <li class="nav__item"><a href="#education">Education</a></li>
+                    <li class="nav__item"><a href="#language">Languages</a></li>
+                    <li class="nav__item"><a href="#code">Code example</a></li>
+                    <li class="nav__item"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="content">
+                <div class="left__content">
+                    <div class="avatar">
+                        <img class="avatar__img" src="./assets/img/dnavarich.png" alt="avatar">
+                    </div>
+                    <div class="avatar__circle"></div>
+                    <div class="line"></div>
+                    <div class="point1"></div>
+                    <div class="point2"></div>
+                    <div class="point3"></div>
+                    <div class="point4"></div>
+                    <div class="point5"></div>
+                    <div class="point6"></div>
+                </div>
+                <div class="right__content">
+                    <div class="head">
+                        <h1>Dmitry Navarich</h1>
+                        <h2>Junior Front-end Developer</h2>
+                        <div class="social__item">
+                            <a href="https://github.com/dnavarich" target="_blank" class="social__item_git"><img src="./assets/icon/icon_git.svg" alt="GitHub"></a>
+                            <a href="https://twitter.com/dnavarich" target="_blank" class="social__item_twitter"><img src="./assets/icon/icon_twitter.svg" alt="Twitter"></a>
+                        </div>
+                    </div>
+                    <div class="about" id="about">
+                        <h2 class="about__tittle">About me</h2>
+                        <p>Hello. My goal for 2022 is to increase knowledge in the field of front-end development. Now I’m doing my best to find my place under the “IT sun”. I want to further learn the language of backend development and become a full-stack developer. At the moment, I have little experience in versioning and minimal writing of js.<br><br>Competencies about me: responsible in compliance with all deadlines, accurate, purposeful and reliable. I offer new ideas, I learn quickly, I always try to find a way out of difficult and stressful situations and overcome difficulties with dignity. Adequate, active and patient. I can easily communicate with all types of people. </p>
+                    </div>
+                    <h2 class="skills__tittle">Skills</h2>
+                    <div class="skills" id="skills">
+                        <div class="skills__items">
+                            <div class="skills__items_circle"></div>
+                            <div class="skills__items_circle"></div>
+                            <div class="skills__items_circle"></div>
+                            <div class="skills__items_circle"></div>
+                        </div>
+                        <div class="skills__items_tittle">
+                            <p>HTML5</p>
+                            <p>CSS3</p>
+                            <p>JavaScript</p>
+                            <p>Figma</p>
+                        </div>
+                        <div class="skills__items_bar">
+                            <div class="progressbar">
+                                <span style="width: 70%"></span>
+                            </div>
+                            <div class="progressbar">
+                                <span style="width: 70%"></span>
+                            </div>
+                            <div class="progressbar">
+                                <span style="width: 70%"></span>
+                            </div>
+                            <div class="progressbar">
+                                <span style="width: 70%"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education" id="education">
+                        <h2 class="education__tittle">Education</h2>
+                        <p>Belarusian-Russian University / automation engineer <br>Independent study of front-end development RSSchool</p>
+                    </div>
+                    <div class="languages" id="language">
+                        <h2 class="languages__tittle">Languages</h2>
+                        <p>Russian / Belarusian language <br>English A2</p>
+                    </div>
+                    <div class="code_example" id="code">
+                        <h2 class="code_example__tittle">Code example</h2>
+                        <div class="place__code">
+                            <pre><code>
+            Object.assign(Array.prototype, {
+                square() { return this.map(x => x * x) },
+                cube() { return this.map(x => x * x * x) },
+                sum() { return this.reduce((a, b) => a + b, 0) },
+                average() { return this.sum() / this.length },
+                even() { return this.filter(x => !(x % 2)) },
+                odd() { return this.filter(x => (x % 2)) }
+            })</code></pre>
+                        </div>
+                    </div>
+                    <div class="contact" id="contact">
+                        <h2 class="contact__tittle">Contact</h2>
+                        <p>Location: <a href="https://goo.gl/maps/MMA5Fy2xUzAJGW199" target="_blank">Belarus</a><br>Number: <a href="tel:+375 29 8888 430">+375 29 8888 430</a><br>E-mail: <a href="mailto:dima.navarich@gmail.com" target="_blank">dima.navarich@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <a href="https://rs.school/js/" target="_blank"><img src="./assets/icon/Logo.svg" alt="Logo"></a>
+            <p class="footer_license">© Dmitry Navarich. 2022 All rigths reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
