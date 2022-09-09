@@ -189,31 +189,68 @@ h2 {
   margin-top: 15px;
 }
 
-.skills__items_bar {
+.skills__bars {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
   gap: 26px;
-  width: 300px;
-  height: 110px;
-  left: 655px;
-  top: 668px;
+  margin-top: 22px;
 }
 
-.progressbar {
+#progressbar1 {
   height: 8px;
-  position: relative;
-  background: var(--main-color);
-  padding: 3px;
+  width: 300px;
+  background: var(--bar-color);
 }
 
-.progressbar span {
+#progressbar1:after {
+  content: " ";
   display: block;
+  background: var(--main-color);
+  width: 75%;
   height: 100%;
-  background-color: #f5f5f5;
-  position: relative;
-  overflow: hidden;
+}
+
+#progressbar2 {
+  height: 8px;
+  width: 300px;
+  background: var(--bar-color);
+}
+
+#progressbar2:after {
+  content: " ";
+  display: block;
+  background: var(--main-color);
+  width: 65%;
+  height: 100%;
+}
+
+#progressbar3 {
+  height: 8px;
+  width: 300px;
+  background: var(--bar-color);
+}
+
+#progressbar3:after {
+  content: " ";
+  display: block;
+  background: var(--main-color);
+  width: 40%;
+  height: 100%;
+}
+
+#progressbar4 {
+  height: 8px;
+  width: 300px;
+  background: var(--bar-color);
+}
+
+#progressbar4:after {
+  content: " ";
+  display: block;
+  background: var(--main-color);
+  width: 85%;
+  height: 100%;
 }
 
 .education {
